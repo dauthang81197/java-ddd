@@ -9,7 +9,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.xxxx</groupId>
     <artifactId>xxxx-domain</artifactId>
 
     <properties>

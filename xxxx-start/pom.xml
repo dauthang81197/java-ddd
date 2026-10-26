@@ -9,7 +9,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.xxxx</groupId>
     <artifactId>xxxx-start</artifactId>
 
     <properties>
@@ -20,8 +19,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.xxxx</groupId>
+            <groupId>com.thanghub</groupId>
             <artifactId>xxxx-controller</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thanghub</groupId>
+            <artifactId>xxxx-infrastructure</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

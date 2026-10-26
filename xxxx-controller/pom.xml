@@ -9,7 +9,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.xxxx</groupId>
     <artifactId>xxxx-controller</artifactId>
 
     <properties>
@@ -19,7 +18,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.xxxx</groupId>
+            <groupId>com.thanghub</groupId>
             <artifactId>xxxx-application</artifactId>
             <version>${project.version}</version>
         </dependency>
